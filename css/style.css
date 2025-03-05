@@ -130,6 +130,11 @@ body {
 }
 
 /* about me */
+.hero-section {
+    background: url(../images/hero-bg.JPG) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
 /* about sevices */
 .services-box {
     padding: 40px;
