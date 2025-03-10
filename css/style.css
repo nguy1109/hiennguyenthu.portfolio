@@ -1,9 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', serif;
     font-size: 10px;
     margin: 0;
     padding: 0;
 }
+
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+
+
 .navbar-brand {
     font-family: 'Roboto', serif;
     color: var(--primary-color, #630404);
@@ -105,13 +120,13 @@ body {
 .mission-content {
     padding: 50px;
 }
-/* cards */
+/* photo */
 
 .cards {
     background-color: var(--primary-color, #630404);
 }
 
-.card {
+.photo {
     padding: 15px;
 }
 
@@ -166,9 +181,6 @@ body {
     transition: color 0.3s;
 }
 
-i:hover {
-    background-color: #955e5e;
-}
 
 /* Media Queries */
 @media (max-width: 575.98px) {
@@ -218,11 +230,12 @@ i:hover {
     
 }
 
-h4 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: #3f723c;
-    text-align: center;
+
+
+
+.emoji-cover{
+    background: #630404;
+    padding: 20px;
 }
 
 .emoji-gallery {
@@ -233,7 +246,7 @@ h4 {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-    background: white;
+    background: #630404;
 }
 
 .emoji-item {
@@ -253,4 +266,29 @@ h4 {
 
 .emoji {
     font-size: 4rem;
+}
+
+.navbar-brand img {
+    width: 150px;  
+    height: auto;  
+}
+
+
+
+
+
+
+.video-cover {
+    background: #630404;
+    padding: 20px;
+}
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #630404;
 }
