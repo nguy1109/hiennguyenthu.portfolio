@@ -20,10 +20,13 @@
     <a class="skip-link sr-only" href="#main-content">Skip to main content</a>
     <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main Navigation">
         <div class="container-fluid">
-            <a class="navbar-brand me-auto" href="#">Rectangular</a>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.JPG" alt="Logo" style="width: 30px; height: auto;">
+            </a>
+            <a class="navbar-brand me-auto" href="#">Jamie Nguyen</a>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Rectangular</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jamie Nguyen</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -33,6 +36,11 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2" href="#about">About</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#uiux">UI/UX Enthusiast</a></li>
+                                <li><a href="#photo">Photography Enthusiast</a></li>
+                                <li><a href="#video">Video Editing Enthusiast</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2" href="#contact">Contact</a>
@@ -54,9 +62,9 @@
         <div class="container"> 
             <div class="d-flex justify-content-center align-items-center">
                 <div class="text-white text-center">
-                    <h1>Welcome to Rectangle Photography</h1>
-                    <p>Your Story, Perfectly Framed!</p>
-                    <p>Based in Ottawa, ON</p>
+                    <h1>Hello! I'm Jamie Nguyen</h1>
+                    <p>I'm a web designer with a business background, blending empathy with data-driven decision-making and a collaborative communication style.</p>
+                    <p>Ottawa, ON</p>
                     <a href="#" class="call-to-action btn btn-light">Explore</a>
                 </div>
             </div>
@@ -69,10 +77,10 @@
             <div class="container">
                 <div class="row">
                     <div class="mission-content col-md">
-                        <h2>Photography lead us to more interprations of reality.</h2>
+                        <h2>Technology with art lead us to more interprations of reality.</h2>
                     </div>
                     <div class="mission-content col-md">
-                        <p>Discover the art of capturing moments that matter. At Rectangle Photography, we turn special occasions into stunning visual stories. Explore our portfolio to see how we can bring your vision to life.</p>
+                        <p>Discover the art of capturing moments that matter. I turn special occasions into stunning visual stories. Explore my portfolio to see how I can bring your vision to life.</p>
                     </div>
                 </div>
             </div>
@@ -80,9 +88,9 @@
   
   
   
-        <section id="cards" class="cards py-5">
-            <div class="container"><!-- <h2 class="mb-4">Vision</h2> -->
-
+        <section id="photo" class="cards py-5">
+            <h3>Photography Enthusiast</h3>
+            <div class="container">
                 <div class="row gy-4">
                     <div class="col-sm-6 col-lg-3">
                         <div class="card">
@@ -92,7 +100,7 @@
                                 <img src="images/nature.JPG" class="card-img-top" alt="Beautiful nature scenery">
                             </picture>
                             <div class="card-body">
-                                <h3 class="card-title">Nature</h3>
+                                <h4 class="card-title">Nature</h4>
                                 <p class="card-text">Experience the beauty of the natural world through our nature photography. From sweeping landscapes to intricate details, our nature shots capture the wonder of the environment.</p>
                                 <a href="#" class="card-button">Explore</a>
                             </div>
@@ -106,7 +114,7 @@
                                 <img src="images/life.JPG" class="card-img-top" alt="Life in various forms">
                             </picture>
                             <div class="card-body">
-                                <h3 class="card-title">Life</h3>
+                                <h4 class="card-title">Life</h4>
                                 <p class="card-text">Browse our curated collections showcasing a range of themes and subjects. Each collection is designed to highlight different aspects of my photographic journey.</p>
                                 <a href="#" class="card-button">Explore</a>
                             </div>
@@ -120,7 +128,7 @@
                                 <img src="images/human.JPG" class="card-img-top" alt="Human interactions and emotions">
                             </picture>
                             <div class="card-body">
-                                <h3 class="card-title">Human</h3>
+                                <h4 class="card-title">Human</h4>
                                 <p class="card-text">Step back in time with our retro-inspired photography. With a blend of nostalgic aesthetics and modern techniques, these images evoke a timeless charm and classic appeal.</p>
                                 <a href="#" class="card-button">Explore</a>
                             </div>
@@ -134,7 +142,7 @@
                                 <img src="images/animal.JPG" class="card-img-top" alt="Animals in their habitats">
                             </picture>
                             <div class="card-body">
-                                <h3 class="card-title">Animal</h3>
+                                <h4 class="card-title">Animal</h4>
                                 <p class="card-text">Focus on the behaviors, habitats, and conservation status of specific animals or ecosystems. Spend time observing them to get a sense of their routines and behaviors.</p>
                                 <a href="#" class="card-button">Explore</a>
                             </div>
@@ -170,7 +178,7 @@
                             <div class="services-box">
                                 <div class="icon"><i class="fa-solid fa-code"></i></div>
                                 <div class="content">
-                                    <h3>Portrait Photography</h3>
+                                    <h4>Portrait Photography</h4>
                                     <p>Offer professional portrait sessions using 35mm film. This could include individual, family, or corporate portraits with a classic film look.</p>
                                 </div>
                             </div>
@@ -180,7 +188,7 @@
                             <div class="services-box">
                                 <div class="icon"><i class="fa-solid fa-code"></i></div>
                                 <div class="content">
-                                    <h3>Consulting and Advice</h3>
+                                    <h4>Consulting and Advice</h4>
                                     <p>Provide expert advice on film photography, including selecting the right film for specific projects and troubleshooting common issues.</p>
                                 </div>
                             </div>
@@ -190,7 +198,7 @@
                             <div class="services-box">
                                 <div class="icon"><i class="fa-solid fa-code"></i></div>
                                 <div class="content">
-                                    <h3>Camera Sales and Repairs</h3>
+                                    <h4>Camera Sales and Repairs</h4>
                                     <p>Sell new and used 35mm film cameras, lenses, and accessories. Offer repair services for cameras and other equipment.</p>
                                 </div>
                             </div>
@@ -200,7 +208,7 @@
                             <div class="services-box">
                                 <div class="icon"><i class="fa-solid fa-code"></i></div>
                                 <div class="content">
-                                    <h3>Prints and Enlargements</h3>
+                                    <h4>Prints and Enlargements</h4>
                                     <p>Offer services to make custom prints or enlargements from scanned images or original negatives.</p>
                                 </div>
                             </div>
@@ -211,41 +219,94 @@
         </section>
 
 
-        <section id="contact" class="section bg-light">
-            <div class="container">
-                <div class="row align-items-center py-5">
-                    <div class="contact-heading col-md">
-                        <h2 class="text-center">We'd love to hear from you!</h2>
-                    </div>
-                    <div class="contact-form col-md">
-                        <form>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput">Name</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput">
+
+
+
+
+        <!--video-->
+
+        <section id="video" class="video-cover">
+            <h3>Video Editing Enthusiast</h3>
+            <div class="video-gallery">
+               
+                        <div class="card">
+                            <video controls>
+                                <source src="videos/Profile.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <h4 class="card-title">Profile</h4>
+                                <p class="card-text">Passion, dedication, and love for volleyball - all captured in this video. This is my project helped my friend applied for his scholorship, where he want to share the story of volleyball and the teammates who make it special. Dive into the energy and heart behind every play!</p>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                 
+                    
+                        <div class="card">
+                            <video controls>
+                                <source src="videos/Editing.MP4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <h4 class="card-title">Editing</h4>
+                                <p class="card-text">This project showcases my editing skills using Premiere Pro to bring the true essence of the story to life. Through careful editing and creative footage, I aim to immerse viewers in the authentic energy of the game. Every cut and transition is designed to tell a genuine, powerful story.</p>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">I accept the Terms</label>
-                            </div>
-                            <button type="submit" class="login-button">Submit</button>
-                          </form>
-                    </div>
-                </div>
+                        </div>
+
             </div>
         </section>
 
-        <h4>Emoji Gallery</h4>
+
+
+
+
+
+
+
+
+<section id="contact" class="section bg-light">
+    <div class="container">
+        <div class="row align-items-center py-5">
+            <div class="contact-heading col-md">
+                <h2 class="text-center">I'd love to hear from you!</h2>
+                <h4>
+                    <a href="#"><i class="fa-solid fa-envelope">nguy1109@algonquinlive.com</i></a>
+                </h4>
+            </div>
+            <div class="contact-form col-md">
+                <form action="send_email.php" method="POST">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" required></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="accept_terms" required>
+                        <label class="form-check-label" for="exampleCheck1">I accept the Terms</label>
+                    </div>
+                    <button type="submit" class="login-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="emoji-cover">
+    <h3>Release Stress</h3>
         <section id="emoji-gallery" class="emoji-gallery"></section>
         <script src="script.js"></script>
+</section>
+
+
+        
+        
 
 
 
