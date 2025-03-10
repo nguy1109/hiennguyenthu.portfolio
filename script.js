@@ -26,3 +26,4 @@ animals.forEach(animal => {
 
     gallery.appendChild(emojiDiv);
 });
+
