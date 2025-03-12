@@ -195,8 +195,8 @@ h3 {
 }
 
 
-/* Media Queries */
-@media (max-width: 575.98px) {
+/* Media Queries
+ @media (max-width: 575.98px) {
     .hero-section h1 {
         font-size: 1.2rem;
     }
@@ -241,6 +241,65 @@ h3 {
 
 @media (min-width: 1400px) {
     
+} */
+
+/* Base styles (mobile-first approach) */
+.hero-section h1 {
+    font-size: 1.2rem;  /* Default font size for mobile devices */
+}
+
+.hero-section p {
+    font-size: 1.2rem;  /* Default font size for mobile devices */
+}
+
+/* For screens with max-width 575.98px (small screens) */
+@media (max-width: 575.98px) {
+    .hero-section h1 {
+        font-size: 1.2rem;  /* Maintain default size for small screens */
+    }
+
+    .hero-section p {
+        font-size: 0.9rem;  /* Adjust paragraph font size for readability */
+    }
+}
+
+/* For screens with min-width 576px (small to medium screens) */
+@media (min-width: 576px) {
+    /* You can add specific styles for medium screens if necessary */
+}
+
+/* For screens with min-width 768px (medium screens) */
+@media (min-width: 768px) {
+    .hero-section h1 {
+        font-size: 1.4rem;  /* Slightly larger heading for tablets */
+    }
+
+    .hero-section p {
+        font-size: 1rem;  /* Adjust paragraph size for tablets */
+    }
+}
+
+/* For screens with min-width 992px (large screens) */
+@media (min-width: 992px) {
+    .hero-section h1 {
+        font-size: 1.8rem;  /* Larger heading for desktop devices */
+    }
+
+    .hero-section p {
+        font-size: 1.1rem;  /* Slightly larger paragraph for desktops */
+    }
+}
+
+/* For screens with min-width 1200px (extra-large screens) */
+@media (min-width: 1200px) {
+    .hero-section h1 {
+        font-size: 2rem;  /* Larger font for extra-large screens (e.g., large desktops) */
+    }
+}
+
+/* For screens with min-width 1400px (ultra-large screens) */
+@media (min-width: 1400px) {
+    /* You can add more specific styles for ultra-large screens if needed */
 }
 
 
