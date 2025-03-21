@@ -423,6 +423,12 @@ h3 {
     top: 20px;
     right: 30px;
     font-size: 2rem;
-    color: white;
+    color: #fff;
     cursor: pointer;
+}
+
+.im-not-working {    
+    background-color: #630404;
+    margin: 0;
+    padding: 1rem;
 }
