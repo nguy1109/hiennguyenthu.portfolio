@@ -127,6 +127,13 @@ h3 {
     transition: 0.3s;
 }
 
+.circle-image {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Same as width to maintain aspect ratio */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire circle */
+}
+
 
 
 /* mission */

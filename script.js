@@ -35,7 +35,7 @@ const images = [
     { thumbnail: 'images/2.jpg', hd: 'images/hd2.jpg', caption: 'Cafe shop' },
     { thumbnail: 'images/3.jpg', hd: 'images/hd3.jpg', caption: 'Cake' },
     { thumbnail: 'images/4.jpg', hd: 'images/hd4.jpg', caption: 'Window' },
-    { thumbnail: 'images/5.jpg', hd: 'images/hd5.jpg', caption: 'Dress' },
+    { thumbnail: 'images/5.jpg', hd: 'images/hd5.jpg', caption: 'Wedding' },
     { thumbnail: 'images/6.jpg', hd: 'images/hd6.jpg', caption: 'Garden' },
     { thumbnail: 'images/7.jpg', hd: 'images/hd7.jpg', caption: 'Hip hop' },
     { thumbnail: 'images/8.jpg', hd: 'images/hd8.jpg', caption: 'Texting' },
