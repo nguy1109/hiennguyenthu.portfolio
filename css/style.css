@@ -134,6 +134,32 @@ h3 {
     object-fit: cover; /* Ensures the image covers the entire circle */
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+}
+
+.social-icon {
+    font-size: 20px; /* Size of icons */
+    color: #ffffff; /* Default color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.social-icon:hover {
+    color: #4CAF50; /* Change color on hover */
+}
+
+.linkedin:hover {
+    color: #0077B5; /* LinkedIn blue */
+}
+
+.instagram:hover {
+    color: #E4405F; /* Instagram pink */
+}
+
+
 
 
 /* mission */
