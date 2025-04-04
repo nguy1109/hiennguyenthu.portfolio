@@ -161,6 +161,26 @@ h3 {
 
 
 
+/*uxui*/
+.uxui-cover {
+    background: #630404;
+    padding: 20px;
+}
+
+
+.uxui-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+
+
+
+
 
 /* mission */
 .mission-content {
@@ -465,3 +485,48 @@ h3 {
     margin: 0;
     padding: 1rem;
 }
+
+
+/* UIUX */
+
+
+.uxui-cover {
+    background-color: #630404;
+    padding: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .uxui-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .design-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .design-item:hover {
+    transform: scale(1.2);
+  }
+  
+  .design-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+  
+  .design-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
