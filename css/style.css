@@ -159,6 +159,19 @@ h3 {
     color: #E4405F; /* Instagram pink */
 }
 
+/* beaver */
+.beaver {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.beaver img {
+    max-width: 40%;
+    border-radius: 20%;
+    padding: 20px 20px 20px 20px;
+}
 
 
 /*uxui*/
