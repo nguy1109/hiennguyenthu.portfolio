@@ -80,30 +80,6 @@ modalImg.addEventListener('click', (e) => {
 
 
 
-const designs = [
-  { src: "images/ui-2.jpg", title: "Sign In" },
-  { src: "images/ui-3.jpg", title: "Sign Up" },
-  { src: "images/ui-1.jpg", title: "Homepage" },
-];
-
-const uxuiGallery = document.getElementById("uxui-gallery");
-
-designs.forEach(design => {
-  const designDiv = document.createElement("div");
-  designDiv.classList.add("design-item");
-
-  designDiv.innerHTML = `
-    <img src="${design.src}" alt="${design.title}" />
-    <p>${design.title}</p>
-  `;
-
-  uxuiGallery.appendChild(designDiv);
-});
-
-
-
-
-
 
 
 
