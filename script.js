@@ -85,11 +85,3 @@ modalImg.addEventListener('click', (e) => {
 
 
 
-
-
-
-
-
-
-
-
