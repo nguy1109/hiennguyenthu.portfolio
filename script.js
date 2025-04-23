@@ -31,18 +31,11 @@ animals.forEach(animal => {
 
 
 const images = [
-    { thumbnail: 'images/1.jpg', hd: 'images/hd1.jpg', caption: 'Lake' },
-    { thumbnail: 'images/2.jpg', hd: 'images/hd2.jpg', caption: 'Cafe shop' },
-    { thumbnail: 'images/3.jpg', hd: 'images/hd3.jpg', caption: 'Cake' },
-    { thumbnail: 'images/4.jpg', hd: 'images/hd4.jpg', caption: 'Window' },
-    { thumbnail: 'images/5.jpg', hd: 'images/hd5.jpg', caption: 'Wedding' },
-    { thumbnail: 'images/6.jpg', hd: 'images/hd6.jpg', caption: 'Garden' },
-    { thumbnail: 'images/7.jpg', hd: 'images/hd7.jpg', caption: 'Hip hop' },
-    { thumbnail: 'images/8.jpg', hd: 'images/hd8.jpg', caption: 'Texting' },
-    { thumbnail: 'images/9.jpg', hd: 'images/hd9.jpg', caption: 'On car' },
-    { thumbnail: 'images/10.jpg', hd: 'images/hd10.jpg', caption: 'Friend' },
-    { thumbnail: 'images/11.jpg', hd: 'images/hd11.jpg', caption: 'Me' },
-    { thumbnail: 'images/12.jpg', hd: 'images/hd12.jpg', caption: 'Rooftop' },
+    { thumbnail: 'images/1.jpg', hd: 'images/hd1.jpg', caption: 'On the lake' },
+    { thumbnail: 'images/2.jpg', hd: 'images/hd2.jpg', caption: 'Go around cafe shop' },
+    { thumbnail: 'images/5.jpg', hd: 'images/hd5.jpg', caption: 'Wedding (every month)' },
+    { thumbnail: 'images/6.jpg', hd: 'images/hd6.jpg', caption: 'Healing in the garden' },
+    { thumbnail: 'images/10.jpg', hd: 'images/hd10.jpg', caption: 'Hang out with friend' },
 ];
   
 const galleryContainer = document.querySelector('.gallery-container');
