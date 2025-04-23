@@ -97,7 +97,6 @@ h3 {
 
 
 
-
 /* hero */
 
 .hero-section {
@@ -168,6 +167,11 @@ h3 {
 }
 
 /* beaver */
+.beaver-cover {
+    background: #630404;
+    padding: 20px;
+}
+
 .beaver {
     display: flex;
     align-items: center;
@@ -181,8 +185,34 @@ h3 {
     padding: 20px 20px 20px 20px;
 }
 
+.beaver p {
+    color: #ffffff;
+    padding: 5px;
+}
 
-/*uxui*/
+
+.beaver a {
+    color: #630404;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+/* red-dragon */
+.red-dragon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.red-dragon img {
+    max-width: 25%;
+    border-radius: 5%;
+    padding: 0px 20px 20px 20px;
+}
+
+
+/* uxui
 .uxui-cover {
     background: #630404;
     padding: 20px;
@@ -195,19 +225,15 @@ h3 {
     align-items: center;
     flex-direction: column;
     padding: 50px;
-}
+} */
 
+/* 
 
-
-
-
-
-
-/* mission */
+mission
 .mission-content {
     padding: 50px;
 }
-/* photo */
+
 
 .cards {
     background-color: var(--primary-color, #630404);
@@ -216,6 +242,7 @@ h3 {
 .photo {
     padding: 15px;
 }
+*/
 
 .card-button {
     background-color: var(--primary-color, #630404);
@@ -430,6 +457,7 @@ h3 {
     background: #630404;
     padding: 20px;
 }
+
 .video-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
