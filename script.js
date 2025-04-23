@@ -29,7 +29,6 @@ animals.forEach(animal => {
 
 
 
-
 const images = [
     { thumbnail: 'images/1.jpg', hd: 'images/hd1.jpg', caption: 'On the lake' },
     { thumbnail: 'images/2.jpg', hd: 'images/hd2.jpg', caption: 'Go around cafe shop' },
