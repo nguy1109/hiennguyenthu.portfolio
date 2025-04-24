@@ -199,7 +199,7 @@ h3 {
 
 /* red-dragon */
 .reddragon-cover {
-    background: #a6a5a5;
+    background: #ffffff;
     padding: 20px;
 
 }
@@ -211,7 +211,7 @@ h3 {
 }
 
 .red-dragon img {
-    max-width: 25%;
+    max-width: 48%;
     padding: 0px 20px 20px 20px;
 }
 
