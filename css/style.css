@@ -168,7 +168,7 @@ h3 {
 
 /* beaver */
 .beaver-cover {
-    background: #630404;
+    background: #d67e37;
     padding: 20px;
 }
 
@@ -198,6 +198,11 @@ h3 {
 }
 
 /* red-dragon */
+.reddragon-cover {
+    background: #a6a5a5;
+    padding: 20px;
+
+}
 .red-dragon {
     display: flex;
     align-items: center;
@@ -207,7 +212,6 @@ h3 {
 
 .red-dragon img {
     max-width: 25%;
-    border-radius: 5%;
     padding: 0px 20px 20px 20px;
 }
 
